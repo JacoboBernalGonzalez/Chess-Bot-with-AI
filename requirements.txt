@@ -1,0 +1,7 @@
+torch
+numpy
+python-chess
+tqdm
+matplotlib
+
+
