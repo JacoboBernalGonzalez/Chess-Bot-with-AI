@@ -166,3 +166,18 @@ Y el engine devolverá un `bestmove`.
 - La representación del tablero (`board_to_tensor`) y el espacio de acciones (4672 movimientos) están simplificados y pensados para prototipos/experimentos.
 
 ---
+
+## Preparar para subir a GitHub
+
+Recomendaciones:
+
+- Mantener en el repositorio:
+  - Código fuente (`*.py`)
+  - `README.md`
+  - `requirements.txt`
+- Excluir:
+  - Checkpoints pesados (`models/*.pt`)
+  - Directorios de caché (`__pycache__/`)
+
+El `.gitignore` incluido ya cubre estos casos (puedes ajustarlo a tus necesidades).
+
